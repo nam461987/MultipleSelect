@@ -1,0 +1,35 @@
+﻿
+@using (Html.BeginForm("ProcessSelectedOptions", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        <label for="selectedOptions">Select Options:</label>
+        <select id="selectedOptions" name="selectedOptions" class="form-control" multiple>
+            @foreach (var option in Model.Options)
+            {
+                <option>@option</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+<!-- Display selected options after submit -->
+@if (Model.SelectedOptions != null)
+{
+    <div id="selectedOptionsDisplay">
+        <p>Selected Options:</p>
+        <ul>
+            @foreach (var option in Model.SelectedOptions)
+            {
+                <li>@option</li>
+            }
+        </ul>
+    </div>
+}
+
+@section Scripts {
+    <script>// JavaScript/jQuery to handle selection and submission
+        $(document).ready(function () {
+            $('#selectedOptions').selectpicker();</script>
+}
