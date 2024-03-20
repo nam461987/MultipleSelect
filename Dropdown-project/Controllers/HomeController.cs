@@ -19,7 +19,8 @@ public class HomeController : Controller
     {
         var model = new MultiSelectModel
         {
-            Options = StaticOptions.ToList()
+            Options = StaticOptions.ToList(),
+            SelectedOptions = new List<string>()
         };
 
         return View(model);

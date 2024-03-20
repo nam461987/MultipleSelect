@@ -3,12 +3,14 @@
 {
     <div class="form-group">
         <label for="selectedOptions">Select Options:</label>
-        <select id="selectedOptions" name="selectedOptions" class="form-control" multiple>
-            @foreach (var option in Model.Options)
-            {
-                <option>@option</option>
-            }
-        </select>
+        @foreach (var option in Model.Options)
+        {
+            bool isSelected = Model.SelectedOptions?.Contains(option);
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="@($"option-{option.Replace(" ", "-")}")" name="selectedOptions" value="@option" checked=@(isSelected)>
+                <label class="form-check-label" for="@($"option-{option.Replace(" ", "-")}")">@option</label>
+            </div>
+        }
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
@@ -31,5 +33,7 @@
 @section Scripts {
     <script>// JavaScript/jQuery to handle selection and submission
         $(document).ready(function () {
-            $('#selectedOptions').selectpicker();</script>
+            $('.form-check-input').change(function () {
+                $(this).closest('.form-check').toggleClass('selected', this.checked);
+            });</script>
 }
