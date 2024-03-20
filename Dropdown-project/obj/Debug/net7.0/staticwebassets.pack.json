@@ -5,12 +5,40 @@
       "PackagePath": "staticwebassets/Dropdown-project.bundle.scp.css"
     },
     {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/css/bootstrap-3.3.2.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap-3.3.2.min.css"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/css/bootstrap-example.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap-example.min.css"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/css/bootstrap-multiselect.css",
+      "PackagePath": "staticwebassets/css/bootstrap-multiselect.css"
+    },
+    {
       "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/js/bootstrap-3.3.2.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap-3.3.2.min.js"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/js/bootstrap-multiselect.js",
+      "PackagePath": "staticwebassets/js/bootstrap-multiselect.js"
+    },
+    {
+      "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/js/jquery-2.1.3.min.js",
+      "PackagePath": "staticwebassets/js/jquery-2.1.3.min.js"
     },
     {
       "Id": "/Users/namto/Documents/Practice/Dropdown-project/Dropdown-project/wwwroot/js/site.js",
